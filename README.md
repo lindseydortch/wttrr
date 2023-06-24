@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github Repo: [Wttrr Repo](https://github.com/lindseydortch/wttrr)
+- Live Site URL: [Wttrr Live - Github Pages](https://lindseydortch.github.io/wttrr/)
 
 ## My process
 1. First I started with what I wanted to tackle with this project 
