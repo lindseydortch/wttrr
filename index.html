@@ -6,16 +6,44 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Water Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 <body>
   <section class="title">
-
+    <h1 class="heading-1">
+      Wttrr
+    </h1>
+    <h2>Water is your daily water goal?</h2>
+    <form class="form">
+      <label for="waterGoal">Water Goal</label>
+      <input type="text" id="waterGoal" name="waterGoal" placeholder="Water Goal">
+      <button type="submit">Submit</button>
+    </form>
   </section>
   <section class="add-water-amount">
-
+    <div class="water-buttons">
+      <!-- Filled in with JS, classes, .btn .water-btn -->
+    </div>
   </section>
   <section class="water-intake">
-    
+    <!-- Water Intake Goal -->
+    <p class="" id="waterGoalText"></p>
+
+    <!-- How much water has been consumer today -->
+    <p class="" id="amountWaterDrankText"></p>
+
+    <!-- Percentage completed of your water goal -->
+    <p class="" id="percOfGoalText"></p>
+
+    <!-- Amount of days they've hit their water goal -->
+    <p class="" id="timesWaterGoalCompletedText"></p>
   </section>
+
+  <script src="./index.js"></script>
 </body>
 </html>
