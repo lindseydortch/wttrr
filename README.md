@@ -53,14 +53,14 @@ Users should be able to:
 ### What I learned
 
 - In order to count how many times the user has hit their water intake goal, I had to work with the Date() method. This was interesting to work with so I can gather the date and as long as the date wasn't that day your amount can increase
-  <code>
+  ```
     const getDate = () => {
       let date = new Date() 
       date = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`
       return date 
     }
-  </code>
-  <code>
+  ```
+  ```
     if (percOfGoal >= 100) {
       const lastTimeWaterGoalCompleted = getDate() 
 
@@ -72,7 +72,7 @@ Users should be able to:
         timesWaterGoalCompletedText.innerHTML = `You've reached your water goal ${timesWaterGoalCompleted} amount of days`
       }
     }
-  </code>
+  ```
 - It has been awhile since I've coded something with vanilla JS and not used a framework like React or Gatsby, so it was interesting to go back to the fundamentals of it all and build something from scratch
 
 ### Continued development
